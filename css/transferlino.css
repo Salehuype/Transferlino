@@ -1,0 +1,179 @@
+
+.navstyler {
+	margin-left:140px;
+	font-size: 0.79rem;
+}
+.active {color: #EB7B2A; font-weight: 700;}
+body, html {height: 100%; margin: 0;}
+
+.main-header1 {
+    position: relative;
+    width: 100%;
+	height: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/background_main1.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;}
+
+.main-header {
+    background-image: url(../img/background_main1.jpg);
+	height: 100%;
+	position: relative;
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;}
+
+.land-main {
+	background-color: #fff;
+	position: absolute;
+	left: 0;
+	top: 15%;
+	width: 100%;
+	}
+
+.land-main-text {
+	text-align: center;
+	color:#EB7B2A;
+	margin: 20px;
+}
+
+.book-line {
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px 20px 5px 20px;
+	border-radius: 30px 30px 0 0;
+	background-color: transparent;
+	border: 1px solid #EB7B2A;
+	border-bottom: 0px;
+	color: #EB7B2A;
+	max-width: 500px;
+}
+
+.book-submit {
+	text-align: center;
+	text-transform: capitalize;
+	margin: 0 auto;
+	padding: 10px 20px 5px 20px;
+	border-radius: 0 0 30px 30px;
+	background-color: transparent;
+	color: green;
+	border: 1px solid green;
+	border-top: 0px;
+	max-width: 500px;
+	box-shadow: 0 0;
+}
+
+.book-submit:hover {
+	color: #00A100;
+	opacity: 0.85;
+}
+
+.btn-align {	
+	text-align: center;
+	margin: 0 auto;
+}
+
+.destinations {
+	background-color: #fff;
+	position: absolute;
+	display: flex1;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0 0 25px 25px;
+	padding:0 30px 10px 30px;
+	}
+	
+.destination {
+	display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+	}
+	
+.box-basics {
+	background: linear-gradient(0deg, #E5E5E5 0%, #fff 100%);
+	margin: -150px 30px 10px;
+	border-radius: 10px 10px 0 0;
+	padding: 40px;
+	position: relative;
+}
+
+.box-basics-back {
+	background-color: #E5E5E5;
+}
+
+.items-showcase-box {
+	padding: 30px;
+}
+
+.items-showcase-text {
+	padding: 20px;
+}
+
+.items-showcase {
+	position:relative;
+	margin: auto;
+	width: 120px;
+	height: 120px;
+	border: 2px solid #EB7B2A;
+	color: #EB7B2A;
+	border-radius: 20px;
+}
+
+.icon-align {
+	top: auto;
+	left: auto;
+	margin-left: 0;
+	margin-top: 35%;
+	margin-bottom: 50%;
+}
+
+.car-class-picker {
+	background-color: #fff;
+}
+.footer-main {
+	background-color: #2732A8;
+	margin-top: 30px;
+	padding-top: 50px;
+}
+
+.foot-top {
+	margin: 0 10%;
+	padding-bottom: 20px;
+} 
+
+.footer-trade {
+	text-align:center;
+	color:#fff;
+	margin: 30px 0 30px 0;
+}
+
+.foot-logo {
+	display: block;
+	margin: 0 auto;
+}
+
+.social-connections {
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	width:52px;
+}
+
+.about-header {
+    background-image: url(../img/about_us_cover.jpg);
+	height: 100%;
+	position: relative;
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+	
+.about-main {
+	background-color: #fff;
+	position: absolute;
+	left: 0;
+	top: 15%;
+}	
